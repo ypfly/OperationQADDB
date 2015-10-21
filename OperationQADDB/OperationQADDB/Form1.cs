@@ -19,6 +19,8 @@ namespace OperationQADDB
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show(checkBox1.Checked.ToString());
+            if (checkBox3.Checked)
+                MessageBox.Show("OK");
         }
 
         private void button1_Click(object sender, EventArgs e)
