@@ -20,5 +20,10 @@ namespace OperationQADDB
         {
             MessageBox.Show(checkBox1.Checked.ToString());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
