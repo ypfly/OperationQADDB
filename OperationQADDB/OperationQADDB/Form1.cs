@@ -21,6 +21,7 @@ namespace OperationQADDB
             MessageBox.Show(checkBox1.Checked.ToString());
             if (checkBox3.Checked)
                 MessageBox.Show("OK");
+            MessageBox.Show("123《");
         }
 
         private void button1_Click(object sender, EventArgs e)
